@@ -21,3 +21,7 @@ logs/
 git rm -r --cached .
 git add .
 git commit -m "chore: Update .gitignore to allow DVC files"
+.dvc/cache/
+.dvc/tmp/
+data
+data/
