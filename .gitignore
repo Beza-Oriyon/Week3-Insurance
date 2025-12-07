@@ -10,7 +10,7 @@ venv/
 # --- DVC/Git Specific ---
 # 1. Ignore the large data file itself
 data/raw_insurance_data.csv
-
+.dvc
 # 2. Ignore DVC cache/storage (MUST be ignored)
 .dvc/cache/
 
